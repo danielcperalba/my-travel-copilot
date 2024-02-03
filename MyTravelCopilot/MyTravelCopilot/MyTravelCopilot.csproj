@@ -48,6 +48,8 @@
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="6.1.0" />
 	  <PackageReference Include="CommunityToolkit.MVVM" Version="8.2.2" />
+	  <PackageReference Include="Flurl" Version="4.0.0" />
+	  <PackageReference Include="Flurl.Http" Version="4.0.2" />
 	</ItemGroup>
 
 	<PropertyGroup Label="MauiAppAccelerator">

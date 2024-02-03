@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyTravelCopilot.Models.Response
 {
-    public class ResponseLogin
+    public class LoginResponse
     {
         public string accessToken {  get; set; }
     }

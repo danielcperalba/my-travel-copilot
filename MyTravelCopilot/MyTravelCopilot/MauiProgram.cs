@@ -1,4 +1,6 @@
-﻿namespace MyTravelCopilot;
+﻿using MyTravelCopilot.Repositories.Login;
+
+namespace MyTravelCopilot;
 
 public static class MauiProgram
 {
@@ -17,6 +19,7 @@ public static class MauiProgram
 		builder.Services.AddSingleton<MainViewModel>();
 
 		builder.Services.AddSingleton<MainPage>();
+		builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 
 		return builder.Build();
 	}

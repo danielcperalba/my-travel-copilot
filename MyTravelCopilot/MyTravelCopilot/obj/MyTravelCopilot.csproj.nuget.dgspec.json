@@ -69,6 +69,14 @@
               "target": "Package",
               "version": "[6.1.0, )"
             },
+            "Flurl": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -244,6 +252,14 @@
               "target": "Package",
               "version": "[6.1.0, )"
             },
+            "Flurl": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -351,6 +367,14 @@
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[6.1.0, )"
+            },
+            "Flurl": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[4.0.2, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -460,6 +484,14 @@
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[6.1.0, )"
+            },
+            "Flurl": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[4.0.2, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",

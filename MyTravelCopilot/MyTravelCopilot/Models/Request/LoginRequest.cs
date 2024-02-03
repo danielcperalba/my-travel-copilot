@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyTravelCopilot.Models.Request
 {
-    public class RequestLogin
+    public class LoginRequest
     {
-        public RequestLogin(string email, string password)
+        public LoginRequest(string email, string password)
         {
             Email = email;
             Password = password;

@@ -69,6 +69,10 @@
               "target": "Package",
               "version": "[6.1.0, )"
             },
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
             "Flurl": {
               "target": "Package",
               "version": "[4.0.0, )"
@@ -252,6 +256,10 @@
               "target": "Package",
               "version": "[6.1.0, )"
             },
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
             "Flurl": {
               "target": "Package",
               "version": "[4.0.0, )"
@@ -367,6 +375,10 @@
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[6.1.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
             },
             "Flurl": {
               "target": "Package",
@@ -484,6 +496,10 @@
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[6.1.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
             },
             "Flurl": {
               "target": "Package",

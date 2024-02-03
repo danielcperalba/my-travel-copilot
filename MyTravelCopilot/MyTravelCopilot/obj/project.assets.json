@@ -47,6 +47,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -2035,6 +2044,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -4027,6 +4045,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -6015,6 +6042,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -8007,6 +8043,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -9995,6 +10040,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -11987,6 +12041,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -13975,6 +14038,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -15967,6 +16039,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -16214,6 +16295,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -16465,6 +16555,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -16712,6 +16811,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -16963,6 +17071,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -17210,6 +17327,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -17461,6 +17587,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -17708,6 +17843,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -17959,6 +18103,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -18206,6 +18359,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -18457,6 +18619,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -18704,6 +18875,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -18955,6 +19135,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -19202,6 +19391,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -19453,6 +19651,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -19700,6 +19907,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -19952,6 +20168,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -20355,6 +20580,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -20720,6 +20954,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -21089,6 +21332,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -21454,6 +21706,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -21823,6 +22084,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -22190,6 +22460,15 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Flurl/4.0.0": {
         "type": "package",
         "compile": {
@@ -22555,6 +22834,15 @@
         },
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Flurl/4.0.0": {
@@ -22967,6 +23255,19 @@
         "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
         "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
         "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
+    "Flunt/2.0.5": {
+      "sha512": "CMgq8FUYjkHzyZT3PhkUwZyy79mudON+EL4b0SAT7BfIOJ2CNypwnbdA0cPHAM2CYQfO2L8ubNJCiBHQOIv2pA==",
+      "type": "package",
+      "path": "flunt/2.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
       ]
     },
     "Flurl/4.0.0": {
@@ -26291,6 +26592,7 @@
     "net7.0-android33.0": [
       "CommunityToolkit.MVVM >= 8.2.2",
       "CommunityToolkit.Maui >= 6.1.0",
+      "Flunt >= 2.0.5",
       "Flurl >= 4.0.0",
       "Flurl.Http >= 4.0.2",
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -26314,6 +26616,7 @@
     "net7.0-ios16.1": [
       "CommunityToolkit.MVVM >= 8.2.2",
       "CommunityToolkit.Maui >= 6.1.0",
+      "Flunt >= 2.0.5",
       "Flurl >= 4.0.0",
       "Flurl.Http >= 4.0.2",
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -26326,6 +26629,7 @@
     "net7.0-maccatalyst16.1": [
       "CommunityToolkit.MVVM >= 8.2.2",
       "CommunityToolkit.Maui >= 6.1.0",
+      "Flunt >= 2.0.5",
       "Flurl >= 4.0.0",
       "Flurl.Http >= 4.0.2",
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -26338,6 +26642,7 @@
     "net7.0-windows10.0.19041": [
       "CommunityToolkit.MVVM >= 8.2.2",
       "CommunityToolkit.Maui >= 6.1.0",
+      "Flunt >= 2.0.5",
       "Flurl >= 4.0.0",
       "Flurl.Http >= 4.0.2",
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -26416,6 +26721,10 @@
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[6.1.0, )"
+          },
+          "Flunt": {
+            "target": "Package",
+            "version": "[2.0.5, )"
           },
           "Flurl": {
             "target": "Package",
@@ -26600,6 +26909,10 @@
             "target": "Package",
             "version": "[6.1.0, )"
           },
+          "Flunt": {
+            "target": "Package",
+            "version": "[2.0.5, )"
+          },
           "Flurl": {
             "target": "Package",
             "version": "[4.0.0, )"
@@ -26715,6 +27028,10 @@
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[6.1.0, )"
+          },
+          "Flunt": {
+            "target": "Package",
+            "version": "[2.0.5, )"
           },
           "Flurl": {
             "target": "Package",
@@ -26832,6 +27149,10 @@
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[6.1.0, )"
+          },
+          "Flunt": {
+            "target": "Package",
+            "version": "[2.0.5, )"
           },
           "Flurl": {
             "target": "Package",

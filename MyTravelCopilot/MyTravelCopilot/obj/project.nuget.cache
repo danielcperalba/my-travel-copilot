@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "N6VsfspZTxJQIQspQpsGfjB4Og69YnTvq1/A1Cz0/3YQevGB5MQd2ox4ZWF1xDTSWmKMG0JEdc0u0nYAo99Q5g==",
+  "dgSpecHash": "1K/U0HaMnQCGdNGVdsd2VSi6caJa/STHmYrUX678Qm8VKMu3CjpOkS/bJso3FJtMp/0H7i/rJt7xTHUxRU6+yw==",
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\OneDrive\\Documentos\\repositories\\my-travel-copilot\\MyTravelCopilot\\MyTravelCopilot\\MyTravelCopilot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\communitytoolkit.maui\\6.1.0\\communitytoolkit.maui.6.1.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\communitytoolkit.maui.core\\6.1.0\\communitytoolkit.maui.core.6.1.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\flurl\\4.0.0\\flurl.4.0.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\flurl.http\\4.0.2\\flurl.http.4.0.2.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",

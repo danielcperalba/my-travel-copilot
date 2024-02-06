@@ -1,17 +1,14 @@
 # My Travel Copilot
-An app to help you in your travel
+## Sobre o aplicativo
+Este aplicativo tem como principal objetivo servir como auxílio para pessoas que: viajam e tem dificuldades de gerir o dinheiro e querem controlar os gastos, anotar os destinos que desejam visitar durante a viagem, tem dificuldade com a linguagem do local, caso esteja em outro país e muito mais..
+</br>
+O aplicativo também contará com conversor de moedas, tradutor e uma Inteligência Artificial para te dar dicas sobre o que fazer no local.
 
-Hi there! <br>
-This is my app Travel Copilot, in building proccess that will gather some of essencials tools to help anyone in his trip.
+## Protótipos
 </br>
 
-### Future Features
-
-[] To-do list
-</br>
-[] Money conversor
-</br>
-[] Texts of real contexts at the language that you needs
-</br>
-[] IA that gaves you some tips like what to do in your region
-</br>
+## Tecnologias
+Linguagem: C#
+Plataforma: .NET MAUI
+Banco de Dados:
+Desenvolvedor: Daniel C Peralba

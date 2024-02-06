@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyTravelCopilot.Views.InitialPage"
+             Title="InitialPage"
+             BackgroundColor="{StaticResource bd-login}">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid ColumnDefinitions="*, auto, *" ColumnSpacing="10" Margin="150">
+                <BoxView HeightRequest="1"/>
+                <Label Grid.Column="1" Text="Travel Copilot" TextColor="{StaticResource text-color}"/>
+                <BoxView HeightRequest="1" Grid.Column="2"/>
+            </Grid>
+
+            <Grid>
+                <Button
+                    CornerRadius="26"
+                    BackgroundColor="{StaticResource White}"
+                    TextColor="{StaticResource text-color}"
+                    Text="Entrar em conta existente"
+                    />
+                
+            </Grid>
+            <Grid>
+                <Button
+                    CornerRadius="26"
+                    BackgroundColor="{StaticResource bd-btn-register}"
+                    TextColor="{StaticResource text-color}"
+                    Text="Criar uma nova conta"
+                    />
+            </Grid>
+            
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -5,13 +5,13 @@
              xmlns:viewModel="clr-namespace:MyTravelCopilot.ViewModels"
              x:DataType="viewModel:LoginViewModel"
              Title="LoginPage"
-             BackgroundColor="{StaticResource Primary}"
+             BackgroundColor="{StaticResource bd-login}"
              >
 
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Entry">
-                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="TextColor" Value="{StaticResource text-color}"/>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
@@ -20,9 +20,9 @@
         <Grid RowDefinitions="300, *, auto, auto">
             <Image HeightRequest="150" Source="logo.png"/>
 
-            <Border Grid.Row="1" Padding="20, 40, 20, 0" BackgroundColor="White">
+            <Border Grid.Row="1" Padding="40, 40, 40, 0" BackgroundColor="White">
                 <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="30, 30, 0, 0"/>
+                    <RoundRectangle CornerRadius="15, 15, 0, 0"/>
                 </Border.StrokeShape>
 
                 <VerticalStackLayout Spacing="20">
@@ -30,22 +30,25 @@
                         Keyboard="Email" 
                         Placeholder="E-mail" 
                         Text="{Binding Email}" 
+                        BackgroundColor="{StaticResource bd-entry}"
                         />
 
                     <Entry 
                         Placeholder="Senha" 
                         IsPassword="True" 
                         Text="{Binding Password}"
+                        BackgroundColor="{StaticResource bd-entry}"
                         />
 
                     <Grid>
                         <Button 
-                            BackgroundColor="{StaticResource Primary}"
+                            CornerRadius="26"
+                            BackgroundColor="{StaticResource bd-login}"
                             Command="{Binding LoginCommand}"
-                            FontSize="Medium" 
-                            FontAttributes="Bold"
+                            FontSize="Small" 
                             TextColor="White"
                             Text="Entrar">
+                            
                             <Button.Triggers>
                                 <DataTrigger 
                                     Binding="{Binding LoginCommand.IsRunning}"
@@ -74,8 +77,8 @@
                     <Label 
                         Text="Cadastre-se agora"
                         HorizontalOptions="Center"
-                        FontSize="Medium"
-                        TextColor="Black"/>
+                        FontSize="Micro"
+                        TextColor="{StaticResource text-color}"/>
 
                 </VerticalStackLayout>
             </Border>

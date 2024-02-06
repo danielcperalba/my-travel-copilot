@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-05T23:07:01.165</Modified>
+      <Modified>2024-02-05T23:54:29.981</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-05T22:22:49.066</Modified>
+      <Modified>2024-02-05T23:54:29.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MyTravelCopilot.runtimeconfig.json">
       <PackagePath>MyTravelCopilot.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MyTravelCopilot.dll">
       <PackagePath>MyTravelCopilot.dll</PackagePath>
-      <Modified>2024-02-05T23:06:58.972</Modified>
+      <Modified>2024-02-05T23:54:26.461</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MyTravelCopilot.exe</PackagePath>
-      <Modified>2024-02-05T23:06:59.069</Modified>
+      <Modified>2024-02-05T23:54:26.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MyTravelCopilot.deps.json">
       <PackagePath>MyTravelCopilot.deps.json</PackagePath>
-      <Modified>2024-02-05T22:22:48.648</Modified>
+      <Modified>2024-02-05T23:54:29.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.15\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

@@ -47,6 +47,8 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\appicon.png" />
+	  <None Remove="Resources\Images\copilot.jpeg" />
+	  <None Remove="Resources\Images\copilot.png" />
 	  <None Remove="Resources\Images\icbox.svg" />
 	  <None Remove="Resources\Images\logo.png" />
 	</ItemGroup>

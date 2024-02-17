@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyTravelCopilot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5e663ccbf77caf24cebacda22097b5817acee88a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4944980c7e9920f71bb21a04f03ce31b1e87bfcd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyTravelCopilot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyTravelCopilot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

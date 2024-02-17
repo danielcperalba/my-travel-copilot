@@ -5,49 +5,53 @@
              xmlns:viewModel="clr-namespace:MyTravelCopilot.ViewModels"
              x:DataType="viewModel:LoginViewModel"
              Title="LoginPage"
-             BackgroundColor="{StaticResource bd-login}"
+             BackgroundColor="{StaticResource White}"
              >
 
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Entry">
-                <Setter Property="TextColor" Value="{StaticResource text-color}"/>
+                <Setter Property="TextColor" Value="{StaticResource text-black}"/>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
 
     <ScrollView>
         <Grid RowDefinitions="300, *, auto, auto">
-            <Image HeightRequest="150" Source="logo.png"/>
 
-            <Border Grid.Row="1" Padding="40, 40, 40, 0" BackgroundColor="White">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="15, 15, 0, 0"/>
-                </Border.StrokeShape>
+                <VerticalStackLayout Spacing="17" Padding="30, 200, 30, 0">
 
-                <VerticalStackLayout Spacing="20">
+                    <Label
+                        Text="Nice to see you again!"
+                        TextColor="{StaticResource text-title}"
+                        FontFamily="Plus Jakarta Sans"
+                        FontAttributes="Bold"
+                        FontSize="Large"
+                        Padding="0, 0, 0, 40"
+                        />
+                
                     <Entry 
                         Keyboard="Email" 
-                        Placeholder="E-mail" 
-                        Text="{Binding Email}" 
+                        Placeholder=" Type yout email" 
+                        Text="{Binding Email}"
                         BackgroundColor="{StaticResource bd-entry}"
                         />
 
                     <Entry 
-                        Placeholder="Senha" 
+                        Placeholder=" Type your password" 
                         IsPassword="True" 
                         Text="{Binding Password}"
                         BackgroundColor="{StaticResource bd-entry}"
                         />
 
-                    <Grid>
+                    <Grid Padding="0, 25, 0, 0">
                         <Button 
                             CornerRadius="26"
-                            BackgroundColor="{StaticResource bd-login}"
+                            BackgroundColor="{StaticResource bd-green}"
                             Command="{Binding LoginCommand}"
                             FontSize="Small" 
                             TextColor="White"
-                            Text="Entrar">
+                            Text="Continue">
                             
                             <Button.Triggers>
                                 <DataTrigger 
@@ -68,20 +72,13 @@
 
                     </Grid>
 
-                    <Grid ColumnDefinitions="*, auto, *" ColumnSpacing="10">
-                        <BoxView HeightRequest="1"/>
-                        <Label Grid.Column="1" Text="ou" TextColor="Black"/>
-                        <BoxView HeightRequest="1" Grid.Column="2"/>
-                    </Grid>
-
                     <Label 
-                        Text="Cadastre-se agora"
+                        Text="Forgot my password"
                         HorizontalOptions="Center"
-                        FontSize="Micro"
-                        TextColor="{StaticResource text-color}"/>
+                        FontSize="Small"
+                        TextColor="{StaticResource text-black}"/>
 
                 </VerticalStackLayout>
-            </Border>
         </Grid>
     </ScrollView>
 </ContentPage>

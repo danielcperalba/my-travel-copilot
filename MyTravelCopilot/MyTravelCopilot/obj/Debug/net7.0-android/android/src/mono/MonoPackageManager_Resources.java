@@ -11,6 +11,7 @@ public class MonoPackageManager_Resources {
 		"CommunityToolkit.Maui.dll",
 		"CommunityToolkit.Maui.Core.dll",
 		"CommunityToolkit.Mvvm.dll",
+		"Flunt.dll",
 		"Flurl.dll",
 		"Flurl.Http.dll",
 		"GoogleGson.dll",

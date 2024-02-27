@@ -1,6 +1,8 @@
 ﻿using CommunityToolkit.Maui.Alerts;
+using MyTravelCopilot.Contracts;
 using MyTravelCopilot.Models.Request;
 using MyTravelCopilot.Repositories.Signup;
+using System.Text;
 
 namespace MyTravelCopilot.ViewModels
 {
@@ -26,6 +28,23 @@ namespace MyTravelCopilot.ViewModels
         public async Task Signup()
         {
             var request = new SignupRequest(name, email, password);
+
+            var contract = new SignupContract(request);
+
+            if(!contract.IsValid)
+            {
+                var messages = contract.Notifications.Select(x => x.Message);
+                var sb = new StringBuilder();
+
+                foreach(var message in messages)
+                {
+                    sb.Append($"{message}\n");
+                }
+
+                await Shell.Current.DisplayAlert("Alert", sb.ToString(), "OK");
+                return;
+            }
+
             var result = await _signupRepository.CreateAsync(request);
 
             if (result)

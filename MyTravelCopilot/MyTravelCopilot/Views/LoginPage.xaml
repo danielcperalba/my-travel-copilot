@@ -73,10 +73,14 @@
                     </Grid>
 
                     <Label 
-                        Text="Forgot my password"
+                        Text="Register Now"
                         HorizontalOptions="Center"
                         FontSize="Small"
-                        TextColor="{StaticResource text-black}"/>
+                        TextColor="{StaticResource text-black}">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding GoToSignupCommand}" NumberOfTapsRequired="1"/>
+                        </Label.GestureRecognizers>
+                    </Label>
 
                 </VerticalStackLayout>
         </Grid>

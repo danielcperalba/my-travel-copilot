@@ -20,6 +20,10 @@ namespace MyTravelCopilot.ViewModels
         }
 
         [RelayCommand]
+        public async Task GoToSignup()
+            => await Shell.Current.GoToAsync(nameof(SignupPage));
+
+        [RelayCommand]
         public async Task Login()
         {
             var loginRequest = new LoginRequest(Email, Password);

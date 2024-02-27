@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyTravelCopilot.Views.SignupPage"
+             xmlns:local="clr-namespace:MyTravelCopilot.ViewModels"
+             x:DataType="local:SignupViewModel"
+             Title="SignupPage"
+             BackgroundColor="{StaticResource White}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="PlaceholderColor" Value="Black"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+             
+    <ScrollView>
+        <Grid RowDefinitions="300, *, auto, auto">
+            <Label FontSize="Large" HorizontalOptions="Center" Text="Register" TextColor="Black" VerticalOptions="Center" FontAttributes="Bold"/>
+
+            <Border Grid.Row="1" Padding="20">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="30, 30, 0, 0"/>
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="20">
+                    <Entry Placeholder="Name" Text="{Binding Name}" TextColor="Black" />
+
+                    <Entry Placeholder="E-mail" Text="{Binding Email}" Keyboard="Email"/>
+
+                    <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}" />
+
+                    <Grid>
+                        <Button Command="{Binding SignupCommand}" Text="Register">
+                            <Button.Triggers>
+                                <DataTrigger Binding="{Binding SignupCommand.IsRunning}"
+                                             TargetType="Button"
+                                             Value="true">
+                                    <Setter Property="Text" Value=""/>
+                                </DataTrigger>
+                            </Button.Triggers>
+                        </Button>
+
+                        <ActivityIndicator HorizontalOptions="Center"
+                                            IsRunning="{Binding SignupCommand.IsRunning}"
+                                            IsVisible="{Binding SignupCommand.IsRunning}"
+                                            VerticalOptions="Center"/>
+
+                    </Grid>
+                    
+                </VerticalStackLayout>
+            </Border>
+        </Grid>
+    </ScrollView>
+</ContentPage>

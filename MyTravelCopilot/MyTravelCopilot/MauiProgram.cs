@@ -23,6 +23,7 @@ public static class MauiProgram
 
 		builder.Services.AddTransient<MainPage>();
 		builder.Services.AddTransient<LoginPage>();
+		builder.Services.AddTransient<SignupPage>();
 
 		builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 		builder.Services.AddScoped<ISignupRepository, SignupRepository>();

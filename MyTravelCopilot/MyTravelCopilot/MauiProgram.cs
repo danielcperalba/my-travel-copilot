@@ -1,5 +1,6 @@
 ﻿using MyTravelCopilot.Repositories.Login;
 using MyTravelCopilot.Repositories.Signup;
+using MyTravelCopilot.Repositories.Spent;
 
 namespace MyTravelCopilot;
 
@@ -27,6 +28,7 @@ public static class MauiProgram
 
 		builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 		builder.Services.AddScoped<ISignupRepository, SignupRepository>();
+		builder.Services.AddScoped<ISpentRepository, SpentRepository>();
 
 		return builder.Build();
 	}

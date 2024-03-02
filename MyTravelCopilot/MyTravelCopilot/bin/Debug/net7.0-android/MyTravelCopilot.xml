@@ -4,7 +4,14 @@
         <name>MyTravelCopilot</name>
     </assembly>
     <members>
+        <member name="T:MyTravelCopilot.ViewModels.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:MyTravelCopilot.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:MyTravelCopilot.ViewModels.BaseViewModel.isBusy"/>
+        </member>
         <member name="T:MyTravelCopilot.ViewModels.LoginViewModel">
+            <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
         </member>
@@ -13,6 +20,12 @@
         </member>
         <member name="P:MyTravelCopilot.ViewModels.LoginViewModel.Password">
             <inheritdoc cref="F:MyTravelCopilot.ViewModels.LoginViewModel.password"/>
+        </member>
+        <member name="F:MyTravelCopilot.ViewModels.LoginViewModel.goToSignupCommand">
+            <summary>The backing field for <see cref="P:MyTravelCopilot.ViewModels.LoginViewModel.GoToSignupCommand"/>.</summary>
+        </member>
+        <member name="P:MyTravelCopilot.ViewModels.LoginViewModel.GoToSignupCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MyTravelCopilot.ViewModels.LoginViewModel.GoToSignup"/>.</summary>
         </member>
         <member name="F:MyTravelCopilot.ViewModels.LoginViewModel.loginCommand">
             <summary>The backing field for <see cref="P:MyTravelCopilot.ViewModels.LoginViewModel.LoginCommand"/>.</summary>
@@ -144,6 +157,9 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
         </member>
@@ -158,6 +174,9 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>

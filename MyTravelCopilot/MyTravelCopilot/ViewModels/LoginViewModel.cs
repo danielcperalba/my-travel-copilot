@@ -50,6 +50,10 @@ namespace MyTravelCopilot.ViewModels
                 await toast.Show();
                 return;
             }
+
+            //Redirecionando o usuário para a tela após o login - Navegação absoluta
+            Preferences.Set("token", result.accessToken);
+            await Shell.Current.GoToAsync($"//{nameof(ExpensesPage)}");
         }
     }
 }

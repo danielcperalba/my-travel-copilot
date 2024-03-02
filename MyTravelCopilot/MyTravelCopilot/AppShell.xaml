@@ -13,4 +13,15 @@
 		ContentTemplate="{DataTemplate views:LoginPage}"
 		Route="LoginPage" />
 
+    <?configurando navegação do menu lateral?>
+    <FlyoutItem Title="Expenses">
+        <Tab>
+            <ShellContent
+                Title="Expenses" 
+                ContentTemplate="{DataTemplate views:ExpensesPage}"
+                Route="ExpensesPage"
+                Shell.NavBarIsVisible="True"/>
+        </Tab>
+    </FlyoutItem>
+    
 </Shell>

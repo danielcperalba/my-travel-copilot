@@ -269,3 +269,11 @@ C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilo
 C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-ios\iossimulator-x64\MyTravelCopilot.pdb
 C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-ios\iossimulator-x64\MyTravelCopilot.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-ios\iossimulator-x64\ref\MyTravelCopilot.dll
+C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\bin\Debug\net7.0-ios\iossimulator-x64\Flunt.dll
+C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\icbox.png
+C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\icbox@2x.png
+C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\icbox@3x.png
+C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\appicon.png
+C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\copilot.jpeg
+C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\copilot.png
+C:\Users\danie\OneDrive\Documentos\repositories\my-travel-copilot\MyTravelCopilot\MyTravelCopilot\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\logo.png

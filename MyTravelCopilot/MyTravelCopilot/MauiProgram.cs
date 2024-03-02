@@ -21,14 +21,16 @@ public static class MauiProgram
 		builder.Services.AddTransient<MainViewModel>();
 		builder.Services.AddTransient<LoginViewModel>();
 		builder.Services.AddTransient<SignupViewModel>();
+		builder.Services.AddTransient<ExpensesViewModel>();
 
 		builder.Services.AddTransient<MainPage>();
 		builder.Services.AddTransient<LoginPage>();
 		builder.Services.AddTransient<SignupPage>();
+		builder.Services.AddTransient<ExpensesPage>();
 
 		builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 		builder.Services.AddScoped<ISignupRepository, SignupRepository>();
-		builder.Services.AddScoped<ISpentRepository, SpentRepository>();
+		builder.Services.AddScoped<IExpensesRepository, ExpensesRepository>();
 
 		return builder.Build();
 	}
